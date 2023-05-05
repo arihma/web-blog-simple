@@ -1,0 +1,135 @@
+/*Variables*/
+/*Colores
+    Rojo:#ec2028
+    Gris fondo: #f7f7f7
+    Gris tipografía: #b4b4b4
+    Gris fecha: #e5e5e5
+*/
+/*Medidas
+    contenedor:62rem
+    texti: 1rem
+    título:2rem
+*/
+/*Generales*/
+    body{
+        font-family: 'Karla', sans-serif;
+        color: #b4b4b4;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        font-family: 'Oleo Script', cursive;
+    }
+
+/*Componentes*/
+.container{
+    max-width: 62rem;
+    margin: 0 auto; /*Si pones dos argumentos el primero es para inferior y superior; y el segundo es para los laterales*/
+    padding: 1rem;
+}
+
+.header{
+    border-bottom: 1px solid #b4b4b4;
+    padding: 1rem 0;
+}
+
+.header__brand {
+    color: #ec2028;
+    font-weight: normal;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__brand-simple{
+    font-weight: bold;
+}
+
+.guion{
+    display: inline-block;
+    border-top: 1px solid black;
+    width: 1rem;
+    height: .25rem;
+}
+
+.link{
+    color:#ec2028;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.link--single-summary, .link--single-title{
+    border-bottom: 2px solid #e5e5e5;
+    padding: .1rem;
+}
+
+.link--single-summary{
+    font-style: italic;
+}
+
+.link--single-title:hover, .link--single-summary:hover{
+    text-decoration: none;
+}
+
+.strong{
+    display: inline-block; /*Esto hace que no se separe el bloque de subrayado*/
+    padding: .1rem;
+    background-color: #ec2028;
+    color: #fff;
+}
+
+/*Página inicio*/
+
+.hero{
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.hero p{
+    margin: 0;
+}
+
+.blog{
+    background-color: #f7f7f7;
+    padding: 2rem 0;
+}
+
+.blog__title{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.single__hgroup {
+    display: inline;
+}
+
+.single__hgroup p{
+    display: inline;
+}
+
+.single__title{
+    display: inline;
+    font-size: 1rem;
+}
+
+.single__summary{
+    display: inline;
+}
+
+.single {
+    padding: 2rem 0;
+    border-bottom: 1px solid #b4b4b4;
+    line-height: 1.7rem;
+}
+
+.single--last {
+    border: 0;
+}
+
+.single__created{
+    color: #d6ccc2;
+    font-style: italic;
+}

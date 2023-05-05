@@ -1,0 +1,221 @@
+<!--Copiamos la plantilla de la que nos dan en META, lección 10 de HTML-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Blog Simple</title>
+        <link
+                rel="icon"
+                type="image/png"
+                href="favicon.png"
+        >
+        <link
+                rel="apple-touch-icon"
+                href="touch-icon-iphone.png"
+        >
+        <link
+                rel="apple-touch-icon"
+                sizes="152x152"
+                href="/static/img/apple-touch-icon/touch-icon-ipad.png"
+        >
+        <link
+                rel="apple-touch-icon"
+                sizes="180x180"
+                href="/static/img/apple-touch-icon/touch-icon-iphone-retina.png"
+        >
+        <link
+                rel="apple-touch-icon"
+                sizes="167x167"
+                href="/static/img/apple-touch-icon/touch-icon-ipad-retina.png"
+        >
+        <meta
+                name="theme-color"
+                content="#fff"
+        >
+        <meta
+                name="theme-color"
+                content="#ffff"
+                media="(prefers-color-scheme: light)"
+        >
+        <meta
+                name="theme-color"
+                content="#fff"
+                media="(prefers-color-scheme: dark)"
+        >
+        <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+        >
+        <meta
+                name="author"
+                content="Caanaria"
+        >
+        <meta
+                name="keywords"
+                content="html, css, javascript, blog, minimalista"
+        >
+        <meta
+                name="description"
+                content="Es un ejemplo de mis capacidades de diseño web."
+        >
+        <meta
+                property="og:image"
+                content="img/screenshot.png"
+        >
+        <meta
+                property="og:title"
+                content="Blog Simple"
+        >
+        <meta
+                property="og:type"
+                content="website"
+        >
+        <meta
+                name="twitter:card"
+                content="Es un ejemplo de mis capacidades, sígueme!"
+        >
+        <meta
+                name="twitter:creator"
+                content="@XXXXX"
+        >
+        <meta
+                property="og:image:secure_url"
+                content="https://..."
+        >
+        <meta
+                property="og:image:type"
+                content="image/jpeg"
+        >
+        <meta
+                property="og:image:width"
+                content="400"
+        >
+        <meta
+                property="og:image:height"
+                content="300"
+        >
+        <meta
+                property="og:image:alt"
+                content=""
+        >
+
+        <!-- Fuentes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,700;1,300&family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+        <!-- CSS -->
+        <link
+                rel="stylesheet"
+                type="text/css"
+                href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        >
+        <link
+                rel="stylesheet"
+                type="text/css"
+                href="css/main.css"
+        >
+    </head>
+    <body>
+        <!-- Escribimos header.colega y sale esto " <header class="colega"></header>"-->
+        <header class="header">
+            <div class="container">
+                <a href="/" class="header__brand">Blog<span class="header__brand-simple">simple</span></a>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <p class="hero__text">Hola, me llamo <strong class="strong">Pepe Vinuela</strong>, y soy un Diseñador Web majísimo.</p>
+                    <p class="hero__text">Soy torpe, me cuesta aprender, no se obedecer ordenes y soy alergico a los gatos.--
+                        <a href="#" class="link">Sobre mí</a>
+                    </p>
+                </div>
+            </section>
+            <section class="blog">
+                <div class="container">
+                    <h1 class="blog__title">Mis artículos...</h1>
+                    <article class="single">
+                        <hgroup class="single__hgroup">
+                            <p>
+                                <time class="single__created" datetime="2023-05-03">Mayo 5, 2023</time>
+                                <span class="guion"></span>
+                            </p>
+                            <h2 class="single__title">
+                                <a href="#" class="link link--single-title">Bienvenido a mi blog</a>
+                            </h2>
+                            <span class="guion"></span>
+                        </hgroup>
+                        <p class="single__summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi dolore dolorem dolores eveniet illum iste, modi officiis quia, quisquam rem repellat voluptatibus. Eum impedit ipsa placeat provident voluptatibus...
+                            <a href="#" class="link link--single-summary">Leer más</a>
+                        </p>
+                    </article>
+                    <article class="single">
+                        <hgroup class="single__hgroup">
+                            <p>
+                                <time class="single__created" datetime="2023-06-03">Mayo 6, 2023</time>
+                                <span class="guion"></span>
+                            </p>
+                            <h2 class="single__title">
+                                <a href="#" class="link link--single-title">Mi teoría cósmica</a>
+                            </h2>
+                            <span class="guion"></span>
+                        </hgroup>
+                        <p class="single__summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at atque consequatur, consequuntur corporis dicta fugit illum laudantium provident quaerat quasi, quia quibusdam repudiandae sequi unde! Ad consequatur delectus et?...
+                            <a href="#" class="link link--single-summary">Leer más</a>
+                        </p>
+                    </article>
+                    <article class="single">
+                        <hgroup class="single__hgroup">
+                            <p>
+                                <time class="single__created" datetime="2023-07-03">Mayo 7, 2023</time>
+                                <span class="guion"></span>
+                            </p>
+                            <h2 class="single__title">
+                                <a href="#" class="link link--single-title">Hablemos de Star Wars</a>
+                            </h2>
+                            <span class="guion"></span>
+                        </hgroup>
+                        <p class="single__summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium asperiores atque deserunt esse incidunt labore maxime molestias natus, necessitatibus odio officia, quia quisquam ratione sint vel velit voluptate voluptatibus...
+                            <a href="#" class="link link--single-summary">Leer más</a>
+                        </p>
+                    </article>
+                    <article class="single">
+                        <hgroup class="single__hgroup">
+                            <p>
+                                <time class="single__created" datetime="2023-08-03">Mayo 8, 2023</time>
+                                <span class="guion"></span>
+                            </p>
+                            <h2 class="single__title">
+                                <a href="#" class="link link--single-title">Mis razones de peso</a>
+                            </h2>
+                            <span class="guion"></span>
+                        </hgroup>
+                        <p class="single__summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda autem commodi dolore dolorem dolores eveniet illum iste, modi officiis quia, quisquam rem repellat voluptatibus. Eum impedit ipsa placeat provident voluptatibus...
+                            <a href="#" class="link link--single-summary">Leer más</a>
+                        </p>
+                    </article>
+                    <article class="single single--last">
+                        <hgroup class="single__hgroup">
+                            <p>
+                                <time class="single__created" datetime="2023-09-03">Mayo 9, 2023</time>
+                                <span class="guion"></span>
+                            </p>
+                            <h2 class="single__title">
+                                <a href="#" class="link link--single-title">Me despido</a>
+                            </h2>
+                            <span class="guion"></span>
+                        </hgroup>
+                        <p class="single__summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto autem enim facere illo iure laboriosam non quaerat quo recusandae, saepe soluta vitae! Amet culpa ducimus iure, quaerat quidem ullam...
+                            <a href="#" class="link link--single-summary">Leer más</a>
+                        </p>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <p class="footer__text">@2023 Hecho con HTML, CSS y &hearts;</p>
+            </div>
+        </footer>
+    </body>
+</html>
